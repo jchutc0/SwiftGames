@@ -47,6 +47,15 @@
 		ECF99EC32AE4370900657FC2 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EC02AE4370900657FC2 /* GameOver.swift */; };
 		ECF99EC42AE4370900657FC2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EC12AE4370900657FC2 /* GameScene.swift */; };
 		ECF99EC52AE4370900657FC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EC22AE4370900657FC2 /* ViewController.swift */; };
+		ECF99ECD2AE4384400657FC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99ECC2AE4384400657FC2 /* AppDelegate.swift */; };
+		ECF99ED72AE4384500657FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF99ED62AE4384500657FC2 /* Assets.xcassets */; };
+		ECF99EDA2AE4384500657FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF99ED82AE4384500657FC2 /* Main.storyboard */; };
+		ECF99EE52AE4393700657FC2 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EDF2AE4393700657FC2 /* Car.swift */; };
+		ECF99EE62AE4393700657FC2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EE02AE4393700657FC2 /* GameScene.swift */; };
+		ECF99EE72AE4393700657FC2 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EE12AE4393700657FC2 /* GameOver.swift */; };
+		ECF99EE82AE4393700657FC2 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EE22AE4393700657FC2 /* Track.swift */; };
+		ECF99EE92AE4393700657FC2 /* TitleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EE32AE4393700657FC2 /* TitleNode.swift */; };
+		ECF99EEA2AE4393700657FC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EE42AE4393700657FC2 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +109,17 @@
 		ECF99EC02AE4370900657FC2 /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
 		ECF99EC12AE4370900657FC2 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		ECF99EC22AE4370900657FC2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECF99ECA2AE4384400657FC2 /* SwiftRacer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRacer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF99ECC2AE4384400657FC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECF99ED62AE4384500657FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECF99ED92AE4384500657FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECF99EDB2AE4384500657FC2 /* SwiftRacer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftRacer.entitlements; sourceTree = "<group>"; };
+		ECF99EDF2AE4393700657FC2 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		ECF99EE02AE4393700657FC2 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		ECF99EE12AE4393700657FC2 /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		ECF99EE22AE4393700657FC2 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		ECF99EE32AE4393700657FC2 /* TitleNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleNode.swift; sourceTree = "<group>"; };
+		ECF99EE42AE4393700657FC2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +158,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECF99EC72AE4384400657FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -149,6 +176,7 @@
 				ECF99E5F2AE4321B00657FC2 /* CoinCollector */,
 				ECF99E822AE4346500657FC2 /* SwiftTennis */,
 				ECF99EA12AE4366300657FC2 /* SwiftBreakout */,
+				ECF99ECB2AE4384400657FC2 /* SwiftRacer */,
 				ECF99E262AE41DDE00657FC2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -161,6 +189,7 @@
 				ECF99E5E2AE4321B00657FC2 /* CoinCollector.app */,
 				ECF99E812AE4346500657FC2 /* SwiftTennis.app */,
 				ECF99EA02AE4366300657FC2 /* SwiftBreakout.app */,
+				ECF99ECA2AE4384400657FC2 /* SwiftRacer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -253,6 +282,23 @@
 			path = Nodes;
 			sourceTree = "<group>";
 		};
+		ECF99ECB2AE4384400657FC2 /* SwiftRacer */ = {
+			isa = PBXGroup;
+			children = (
+				ECF99ECC2AE4384400657FC2 /* AppDelegate.swift */,
+				ECF99EDF2AE4393700657FC2 /* Car.swift */,
+				ECF99EE12AE4393700657FC2 /* GameOver.swift */,
+				ECF99EE02AE4393700657FC2 /* GameScene.swift */,
+				ECF99EE32AE4393700657FC2 /* TitleNode.swift */,
+				ECF99EE22AE4393700657FC2 /* Track.swift */,
+				ECF99EE42AE4393700657FC2 /* ViewController.swift */,
+				ECF99ED62AE4384500657FC2 /* Assets.xcassets */,
+				ECF99ED82AE4384500657FC2 /* Main.storyboard */,
+				ECF99EDB2AE4384500657FC2 /* SwiftRacer.entitlements */,
+			);
+			path = SwiftRacer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -341,6 +387,23 @@
 			productReference = ECF99EA02AE4366300657FC2 /* SwiftBreakout.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ECF99EC92AE4384400657FC2 /* SwiftRacer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF99EDC2AE4384500657FC2 /* Build configuration list for PBXNativeTarget "SwiftRacer" */;
+			buildPhases = (
+				ECF99EC62AE4384400657FC2 /* Sources */,
+				ECF99EC72AE4384400657FC2 /* Frameworks */,
+				ECF99EC82AE4384400657FC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftRacer;
+			productName = SwiftRacer;
+			productReference = ECF99ECA2AE4384400657FC2 /* SwiftRacer.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -366,6 +429,9 @@
 					ECF99E9F2AE4366300657FC2 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
+					ECF99EC92AE4384400657FC2 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
 				};
 			};
 			buildConfigurationList = ECF99E202AE41DDE00657FC2 /* Build configuration list for PBXProject "SwiftGames" */;
@@ -386,6 +452,7 @@
 				ECF99E5D2AE4321B00657FC2 /* CoinCollector */,
 				ECF99E802AE4346500657FC2 /* SwiftTennis */,
 				ECF99E9F2AE4366300657FC2 /* SwiftBreakout */,
+				ECF99EC92AE4384400657FC2 /* SwiftRacer */,
 			);
 		};
 /* End PBXProject section */
@@ -440,6 +507,15 @@
 			files = (
 				ECF99EAD2AE4366400657FC2 /* Assets.xcassets in Resources */,
 				ECF99EB02AE4366400657FC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF99EC82AE4384400657FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF99ED72AE4384500657FC2 /* Assets.xcassets in Resources */,
+				ECF99EDA2AE4384500657FC2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +580,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECF99EC62AE4384400657FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF99EE62AE4393700657FC2 /* GameScene.swift in Sources */,
+				ECF99EE82AE4393700657FC2 /* Track.swift in Sources */,
+				ECF99EE52AE4393700657FC2 /* Car.swift in Sources */,
+				ECF99ECD2AE4384400657FC2 /* AppDelegate.swift in Sources */,
+				ECF99EEA2AE4393700657FC2 /* ViewController.swift in Sources */,
+				ECF99EE92AE4393700657FC2 /* TitleNode.swift in Sources */,
+				ECF99EE72AE4393700657FC2 /* GameOver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -543,6 +633,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				ECF99EAF2AE4366400657FC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECF99ED82AE4384500657FC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF99ED92AE4384500657FC2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -938,6 +1036,60 @@
 			};
 			name = Release;
 		};
+		ECF99EDD2AE4384500657FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftRacer/SwiftRacer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T52TG5K2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunchtimedang.SwiftRacer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ECF99EDE2AE4384500657FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftRacer/SwiftRacer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T52TG5K2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunchtimedang.SwiftRacer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -991,6 +1143,15 @@
 			buildConfigurations = (
 				ECF99EB32AE4366400657FC2 /* Debug */,
 				ECF99EB42AE4366400657FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF99EDC2AE4384500657FC2 /* Build configuration list for PBXNativeTarget "SwiftRacer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF99EDD2AE4384500657FC2 /* Debug */,
+				ECF99EDE2AE4384500657FC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
