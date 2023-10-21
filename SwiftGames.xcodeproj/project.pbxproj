@@ -14,6 +14,13 @@
 		ECF99E312AE41DDE00657FC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99E302AE41DDE00657FC2 /* ViewController.swift */; };
 		ECF99E332AE41DE000657FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF99E322AE41DE000657FC2 /* Assets.xcassets */; };
 		ECF99E362AE41DE000657FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF99E342AE41DE000657FC2 /* Main.storyboard */; };
+		ECF99E442AE41FC800657FC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99E432AE41FC800657FC2 /* AppDelegate.swift */; };
+		ECF99E462AE41FC800657FC2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF99E452AE41FC800657FC2 /* GameScene.sks */; };
+		ECF99E482AE41FC800657FC2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF99E472AE41FC800657FC2 /* Actions.sks */; };
+		ECF99E4C2AE41FC800657FC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99E4B2AE41FC800657FC2 /* ViewController.swift */; };
+		ECF99E4E2AE41FCA00657FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF99E4D2AE41FCA00657FC2 /* Assets.xcassets */; };
+		ECF99E512AE41FCA00657FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF99E4F2AE41FCA00657FC2 /* Main.storyboard */; };
+		ECF99E572AE4201500657FC2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99E562AE4201500657FC2 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +33,26 @@
 		ECF99E322AE41DE000657FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECF99E352AE41DE000657FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECF99E372AE41DE000657FC2 /* SwiftGames.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftGames.entitlements; sourceTree = "<group>"; };
+		ECF99E412AE41FC800657FC2 /* SwiftLabelPlaying.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLabelPlaying.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF99E432AE41FC800657FC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECF99E452AE41FC800657FC2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		ECF99E472AE41FC800657FC2 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		ECF99E4B2AE41FC800657FC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECF99E4D2AE41FCA00657FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECF99E502AE41FCA00657FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECF99E522AE41FCA00657FC2 /* SwiftLabelPlaying.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftLabelPlaying.entitlements; sourceTree = "<group>"; };
+		ECF99E562AE4201500657FC2 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = "../../../Swift Games/SwiftLabelPlaying/SwiftLabelPlaying/GameScene.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		ECF99E222AE41DDE00657FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF99E3E2AE41FC800657FC2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				ECF99E272AE41DDE00657FC2 /* SwiftGames */,
+				ECF99E422AE41FC800657FC2 /* SwiftLabelPlaying */,
 				ECF99E262AE41DDE00657FC2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				ECF99E252AE41DDE00657FC2 /* SwiftGames.app */,
+				ECF99E412AE41FC800657FC2 /* SwiftLabelPlaying.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,6 +93,21 @@
 				ECF99E372AE41DE000657FC2 /* SwiftGames.entitlements */,
 			);
 			path = SwiftGames;
+			sourceTree = "<group>";
+		};
+		ECF99E422AE41FC800657FC2 /* SwiftLabelPlaying */ = {
+			isa = PBXGroup;
+			children = (
+				ECF99E432AE41FC800657FC2 /* AppDelegate.swift */,
+				ECF99E452AE41FC800657FC2 /* GameScene.sks */,
+				ECF99E472AE41FC800657FC2 /* Actions.sks */,
+				ECF99E4B2AE41FC800657FC2 /* ViewController.swift */,
+				ECF99E4D2AE41FCA00657FC2 /* Assets.xcassets */,
+				ECF99E4F2AE41FCA00657FC2 /* Main.storyboard */,
+				ECF99E522AE41FCA00657FC2 /* SwiftLabelPlaying.entitlements */,
+				ECF99E562AE4201500657FC2 /* GameScene.swift */,
+			);
+			path = SwiftLabelPlaying;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +130,23 @@
 			productReference = ECF99E252AE41DDE00657FC2 /* SwiftGames.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ECF99E402AE41FC800657FC2 /* SwiftLabelPlaying */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF99E532AE41FCA00657FC2 /* Build configuration list for PBXNativeTarget "SwiftLabelPlaying" */;
+			buildPhases = (
+				ECF99E3D2AE41FC800657FC2 /* Sources */,
+				ECF99E3E2AE41FC800657FC2 /* Frameworks */,
+				ECF99E3F2AE41FC800657FC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftLabelPlaying;
+			productName = SwiftLabelPlaying;
+			productReference = ECF99E412AE41FC800657FC2 /* SwiftLabelPlaying.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -101,6 +158,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					ECF99E242AE41DDE00657FC2 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					ECF99E402AE41FC800657FC2 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
@@ -119,6 +179,7 @@
 			projectRoot = "";
 			targets = (
 				ECF99E242AE41DDE00657FC2 /* SwiftGames */,
+				ECF99E402AE41FC800657FC2 /* SwiftLabelPlaying */,
 			);
 		};
 /* End PBXProject section */
@@ -135,6 +196,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECF99E3F2AE41FC800657FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF99E462AE41FC800657FC2 /* GameScene.sks in Resources */,
+				ECF99E4E2AE41FCA00657FC2 /* Assets.xcassets in Resources */,
+				ECF99E482AE41FC800657FC2 /* Actions.sks in Resources */,
+				ECF99E512AE41FCA00657FC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -148,6 +220,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECF99E3D2AE41FC800657FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF99E4C2AE41FC800657FC2 /* ViewController.swift in Sources */,
+				ECF99E572AE4201500657FC2 /* GameScene.swift in Sources */,
+				ECF99E442AE41FC800657FC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -155,6 +237,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				ECF99E352AE41DE000657FC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECF99E4F2AE41FCA00657FC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF99E502AE41FCA00657FC2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -334,6 +424,60 @@
 			};
 			name = Release;
 		};
+		ECF99E542AE41FCA00657FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftLabelPlaying/SwiftLabelPlaying.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T52TG5K2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunchtimedang.SwiftLabelPlaying;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ECF99E552AE41FCA00657FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftLabelPlaying/SwiftLabelPlaying.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T52TG5K2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunchtimedang.SwiftLabelPlaying;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -351,6 +495,15 @@
 			buildConfigurations = (
 				ECF99E3B2AE41DE000657FC2 /* Debug */,
 				ECF99E3C2AE41DE000657FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF99E532AE41FCA00657FC2 /* Build configuration list for PBXNativeTarget "SwiftLabelPlaying" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF99E542AE41FCA00657FC2 /* Debug */,
+				ECF99E552AE41FCA00657FC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
