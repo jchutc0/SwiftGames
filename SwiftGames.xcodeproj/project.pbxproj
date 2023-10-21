@@ -36,6 +36,17 @@
 		ECF99E992AE434FA00657FC2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99E962AE434FA00657FC2 /* GameScene.swift */; };
 		ECF99E9A2AE434FA00657FC2 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99E972AE434FA00657FC2 /* GameOver.swift */; };
 		ECF99E9B2AE434FA00657FC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99E982AE434FA00657FC2 /* ViewController.swift */; };
+		ECF99EA32AE4366300657FC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EA22AE4366300657FC2 /* AppDelegate.swift */; };
+		ECF99EAD2AE4366400657FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF99EAC2AE4366400657FC2 /* Assets.xcassets */; };
+		ECF99EB02AE4366400657FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF99EAE2AE4366400657FC2 /* Main.storyboard */; };
+		ECF99EBB2AE436D600657FC2 /* WallNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EB62AE436D600657FC2 /* WallNode.swift */; };
+		ECF99EBC2AE436D600657FC2 /* TileNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EB72AE436D600657FC2 /* TileNode.swift */; };
+		ECF99EBD2AE436D600657FC2 /* PaddleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EB82AE436D600657FC2 /* PaddleNode.swift */; };
+		ECF99EBE2AE436D600657FC2 /* TitleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EB92AE436D600657FC2 /* TitleNode.swift */; };
+		ECF99EBF2AE436D600657FC2 /* BallNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EBA2AE436D600657FC2 /* BallNode.swift */; };
+		ECF99EC32AE4370900657FC2 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EC02AE4370900657FC2 /* GameOver.swift */; };
+		ECF99EC42AE4370900657FC2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EC12AE4370900657FC2 /* GameScene.swift */; };
+		ECF99EC52AE4370900657FC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EC22AE4370900657FC2 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +87,19 @@
 		ECF99E962AE434FA00657FC2 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		ECF99E972AE434FA00657FC2 /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
 		ECF99E982AE434FA00657FC2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECF99EA02AE4366300657FC2 /* SwiftBreakout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBreakout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF99EA22AE4366300657FC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECF99EAC2AE4366400657FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECF99EAF2AE4366400657FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECF99EB12AE4366400657FC2 /* SwiftBreakout.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftBreakout.entitlements; sourceTree = "<group>"; };
+		ECF99EB62AE436D600657FC2 /* WallNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallNode.swift; sourceTree = "<group>"; };
+		ECF99EB72AE436D600657FC2 /* TileNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileNode.swift; sourceTree = "<group>"; };
+		ECF99EB82AE436D600657FC2 /* PaddleNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddleNode.swift; sourceTree = "<group>"; };
+		ECF99EB92AE436D600657FC2 /* TitleNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleNode.swift; sourceTree = "<group>"; };
+		ECF99EBA2AE436D600657FC2 /* BallNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallNode.swift; sourceTree = "<group>"; };
+		ECF99EC02AE4370900657FC2 /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		ECF99EC12AE4370900657FC2 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		ECF99EC22AE4370900657FC2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +131,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECF99E9D2AE4366300657FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -117,6 +148,7 @@
 				ECF99E422AE41FC800657FC2 /* SwiftLabelPlaying */,
 				ECF99E5F2AE4321B00657FC2 /* CoinCollector */,
 				ECF99E822AE4346500657FC2 /* SwiftTennis */,
+				ECF99EA12AE4366300657FC2 /* SwiftBreakout */,
 				ECF99E262AE41DDE00657FC2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -128,6 +160,7 @@
 				ECF99E412AE41FC800657FC2 /* SwiftLabelPlaying.app */,
 				ECF99E5E2AE4321B00657FC2 /* CoinCollector.app */,
 				ECF99E812AE4346500657FC2 /* SwiftTennis.app */,
+				ECF99EA02AE4366300657FC2 /* SwiftBreakout.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -191,6 +224,33 @@
 				ECF99E922AE4346600657FC2 /* SwiftTennis.entitlements */,
 			);
 			path = SwiftTennis;
+			sourceTree = "<group>";
+		};
+		ECF99EA12AE4366300657FC2 /* SwiftBreakout */ = {
+			isa = PBXGroup;
+			children = (
+				ECF99EB52AE436B900657FC2 /* Nodes */,
+				ECF99EA22AE4366300657FC2 /* AppDelegate.swift */,
+				ECF99EC02AE4370900657FC2 /* GameOver.swift */,
+				ECF99EC12AE4370900657FC2 /* GameScene.swift */,
+				ECF99EC22AE4370900657FC2 /* ViewController.swift */,
+				ECF99EAC2AE4366400657FC2 /* Assets.xcassets */,
+				ECF99EAE2AE4366400657FC2 /* Main.storyboard */,
+				ECF99EB12AE4366400657FC2 /* SwiftBreakout.entitlements */,
+			);
+			path = SwiftBreakout;
+			sourceTree = "<group>";
+		};
+		ECF99EB52AE436B900657FC2 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				ECF99EBA2AE436D600657FC2 /* BallNode.swift */,
+				ECF99EB82AE436D600657FC2 /* PaddleNode.swift */,
+				ECF99EB72AE436D600657FC2 /* TileNode.swift */,
+				ECF99EB92AE436D600657FC2 /* TitleNode.swift */,
+				ECF99EB62AE436D600657FC2 /* WallNode.swift */,
+			);
+			path = Nodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +324,23 @@
 			productReference = ECF99E812AE4346500657FC2 /* SwiftTennis.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ECF99E9F2AE4366300657FC2 /* SwiftBreakout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF99EB22AE4366400657FC2 /* Build configuration list for PBXNativeTarget "SwiftBreakout" */;
+			buildPhases = (
+				ECF99E9C2AE4366300657FC2 /* Sources */,
+				ECF99E9D2AE4366300657FC2 /* Frameworks */,
+				ECF99E9E2AE4366300657FC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftBreakout;
+			productName = SwiftBreakout;
+			productReference = ECF99EA02AE4366300657FC2 /* SwiftBreakout.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -286,6 +363,9 @@
 					ECF99E802AE4346500657FC2 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
+					ECF99E9F2AE4366300657FC2 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
 				};
 			};
 			buildConfigurationList = ECF99E202AE41DDE00657FC2 /* Build configuration list for PBXProject "SwiftGames" */;
@@ -305,6 +385,7 @@
 				ECF99E402AE41FC800657FC2 /* SwiftLabelPlaying */,
 				ECF99E5D2AE4321B00657FC2 /* CoinCollector */,
 				ECF99E802AE4346500657FC2 /* SwiftTennis */,
+				ECF99E9F2AE4366300657FC2 /* SwiftBreakout */,
 			);
 		};
 /* End PBXProject section */
@@ -353,6 +434,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECF99E9E2AE4366300657FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF99EAD2AE4366400657FC2 /* Assets.xcassets in Resources */,
+				ECF99EB02AE4366400657FC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -398,6 +488,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECF99E9C2AE4366300657FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF99EBF2AE436D600657FC2 /* BallNode.swift in Sources */,
+				ECF99EBC2AE436D600657FC2 /* TileNode.swift in Sources */,
+				ECF99EC42AE4370900657FC2 /* GameScene.swift in Sources */,
+				ECF99EC52AE4370900657FC2 /* ViewController.swift in Sources */,
+				ECF99EC32AE4370900657FC2 /* GameOver.swift in Sources */,
+				ECF99EBE2AE436D600657FC2 /* TitleNode.swift in Sources */,
+				ECF99EBD2AE436D600657FC2 /* PaddleNode.swift in Sources */,
+				ECF99EA32AE4366300657FC2 /* AppDelegate.swift in Sources */,
+				ECF99EBB2AE436D600657FC2 /* WallNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -429,6 +535,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				ECF99E902AE4346600657FC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECF99EAE2AE4366400657FC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF99EAF2AE4366400657FC2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -770,6 +884,60 @@
 			};
 			name = Release;
 		};
+		ECF99EB32AE4366400657FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftBreakout/SwiftBreakout.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T52TG5K2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunchtimedang.SwiftBreakout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ECF99EB42AE4366400657FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftBreakout/SwiftBreakout.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T52TG5K2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunchtimedang.SwiftBreakout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -814,6 +982,15 @@
 			buildConfigurations = (
 				ECF99E942AE4346600657FC2 /* Debug */,
 				ECF99E952AE4346600657FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF99EB22AE4366400657FC2 /* Build configuration list for PBXNativeTarget "SwiftBreakout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF99EB32AE4366400657FC2 /* Debug */,
+				ECF99EB42AE4366400657FC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
