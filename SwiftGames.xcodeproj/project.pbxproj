@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC008AA22AE644C000A5CEB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC008AA12AE644C000A5CEB3 /* AppDelegate.swift */; };
+		EC008AA42AE644C000A5CEB3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EC008AA32AE644C000A5CEB3 /* GameScene.sks */; };
+		EC008AA82AE644C000A5CEB3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC008AA72AE644C000A5CEB3 /* GameScene.swift */; };
+		EC008AAA2AE644C000A5CEB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC008AA92AE644C000A5CEB3 /* ViewController.swift */; };
+		EC008AAC2AE644C100A5CEB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC008AAB2AE644C100A5CEB3 /* Assets.xcassets */; };
+		EC008AAF2AE644C100A5CEB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC008AAD2AE644C100A5CEB3 /* Main.storyboard */; };
+		EC008AB62AE64BB600A5CEB3 /* Keypress.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC33482F2AE6155A00CF4668 /* Keypress.swift */; };
+		EC008AB82AE64D5000A5CEB3 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC008AB72AE64D5000A5CEB3 /* Player.swift */; };
+		EC3348102AE60AD900CF4668 /* fear_wall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC33480B2AE60AD900CF4668 /* fear_wall.mp3 */; };
+		EC3348112AE60AD900CF4668 /* fear_moan.wav in Resources */ = {isa = PBXBuildFile; fileRef = EC33480C2AE60AD900CF4668 /* fear_moan.wav */; };
+		EC3348122AE60AD900CF4668 /* fear_bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC33480D2AE60AD900CF4668 /* fear_bg.mp3 */; };
+		EC3348132AE60AD900CF4668 /* fear_lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC33480E2AE60AD900CF4668 /* fear_lose.mp3 */; };
+		EC3348142AE60AD900CF4668 /* fear_win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC33480F2AE60AD900CF4668 /* fear_win.mp3 */; };
+		ECDA2BC02AEAE6FE00C3EE66 /* KeyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BBF2AEAE6FE00C3EE66 /* KeyScene.sks */; };
+		ECDA2BC32AEB06F400C3EE66 /* GoalScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BC22AEB06F400C3EE66 /* GoalScene.sks */; };
+		ECDA2BC52AEB070100C3EE66 /* DoorScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BC42AEB070100C3EE66 /* DoorScene.sks */; };
+		ECDA2BC72AEB093600C3EE66 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA2BC62AEB093600C3EE66 /* GameOver.swift */; };
+		ECDA2BCD2AEB4F6800C3EE66 /* PlayerScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BCC2AEB4F6800C3EE66 /* PlayerScene.sks */; };
+		ECDA2BD22AEB589F00C3EE66 /* WorldTiles.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BD02AEB589F00C3EE66 /* WorldTiles.sks */; };
+		ECDA2BD52AEB5D8F00C3EE66 /* Level02.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BD42AEB5C8800C3EE66 /* Level02.sks */; };
 		ECF99E292AE41DDE00657FC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99E282AE41DDE00657FC2 /* AppDelegate.swift */; };
 		ECF99E2B2AE41DDE00657FC2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF99E2A2AE41DDE00657FC2 /* GameScene.sks */; };
 		ECF99E2D2AE41DDE00657FC2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF99E2C2AE41DDE00657FC2 /* Actions.sks */; };
@@ -56,9 +76,48 @@
 		ECF99EE82AE4393700657FC2 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EE22AE4393700657FC2 /* Track.swift */; };
 		ECF99EE92AE4393700657FC2 /* TitleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EE32AE4393700657FC2 /* TitleNode.swift */; };
 		ECF99EEA2AE4393700657FC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EE42AE4393700657FC2 /* ViewController.swift */; };
+		ECF99EF22AE44E4C00657FC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EF12AE44E4C00657FC2 /* AppDelegate.swift */; };
+		ECF99EF82AE44E4C00657FC2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EF72AE44E4C00657FC2 /* GameScene.swift */; };
+		ECF99EFA2AE44E4C00657FC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99EF92AE44E4C00657FC2 /* ViewController.swift */; };
+		ECF99EFC2AE44E4D00657FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF99EFB2AE44E4D00657FC2 /* Assets.xcassets */; };
+		ECF99EFF2AE44E4D00657FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF99EFD2AE44E4D00657FC2 /* Main.storyboard */; };
+		ECF99F052AE4A0AE00657FC2 /* TileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF99F042AE4A0AE00657FC2 /* TileSet.sks */; };
+		ECF99F092AE4ADF300657FC2 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF99F082AE4ADF300657FC2 /* MyScene.sks */; };
+		ECF99F112AE4B0F700657FC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99F102AE4B0F700657FC2 /* AppDelegate.swift */; };
+		ECF99F132AE4B0F700657FC2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF99F122AE4B0F700657FC2 /* GameScene.sks */; };
+		ECF99F172AE4B0F700657FC2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99F162AE4B0F700657FC2 /* GameScene.swift */; };
+		ECF99F192AE4B0F700657FC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99F182AE4B0F700657FC2 /* ViewController.swift */; };
+		ECF99F1B2AE4B0F800657FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF99F1A2AE4B0F800657FC2 /* Assets.xcassets */; };
+		ECF99F1E2AE4B0F800657FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF99F1C2AE4B0F800657FC2 /* Main.storyboard */; };
+		ECF99F242AE4B26400657FC2 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99F232AE4B26400657FC2 /* MenuScene.swift */; };
+		ECF99F262AE4CB4000657FC2 /* Wall.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF99F252AE4CB4000657FC2 /* Wall.sks */; };
+		ECF99F292AE4CC0C00657FC2 /* Room.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF99F282AE4CC0C00657FC2 /* Room.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC008A9F2AE644C000A5CEB3 /* SwiftAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC008AA12AE644C000A5CEB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC008AA32AE644C000A5CEB3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		EC008AA72AE644C000A5CEB3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EC008AA92AE644C000A5CEB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC008AAB2AE644C100A5CEB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC008AAE2AE644C100A5CEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC008AB02AE644C100A5CEB3 /* SwiftAdventure.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftAdventure.entitlements; sourceTree = "<group>"; };
+		EC008AB72AE64D5000A5CEB3 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		EC33480B2AE60AD900CF4668 /* fear_wall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_wall.mp3; sourceTree = "<group>"; };
+		EC33480C2AE60AD900CF4668 /* fear_moan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fear_moan.wav; sourceTree = "<group>"; };
+		EC33480D2AE60AD900CF4668 /* fear_bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_bg.mp3; sourceTree = "<group>"; };
+		EC33480E2AE60AD900CF4668 /* fear_lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_lose.mp3; sourceTree = "<group>"; };
+		EC33480F2AE60AD900CF4668 /* fear_win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_win.mp3; sourceTree = "<group>"; };
+		EC33482F2AE6155A00CF4668 /* Keypress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keypress.swift; sourceTree = "<group>"; };
+		ECDA2BBF2AEAE6FE00C3EE66 /* KeyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = KeyScene.sks; sourceTree = "<group>"; };
+		ECDA2BC22AEB06F400C3EE66 /* GoalScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GoalScene.sks; sourceTree = "<group>"; };
+		ECDA2BC42AEB070100C3EE66 /* DoorScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = DoorScene.sks; sourceTree = "<group>"; };
+		ECDA2BC62AEB093600C3EE66 /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		ECDA2BCC2AEB4F6800C3EE66 /* PlayerScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlayerScene.sks; sourceTree = "<group>"; };
+		ECDA2BD02AEB589F00C3EE66 /* WorldTiles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = WorldTiles.sks; sourceTree = "<group>"; };
+		ECDA2BD42AEB5C8800C3EE66 /* Level02.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level02.sks; sourceTree = "<group>"; };
+		ECDA2BD62AEB630800C3EE66 /* Level03.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level03.sks; sourceTree = "<group>"; };
 		ECF99E252AE41DDE00657FC2 /* SwiftGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF99E282AE41DDE00657FC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECF99E2A2AE41DDE00657FC2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -120,9 +179,36 @@
 		ECF99EE22AE4393700657FC2 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		ECF99EE32AE4393700657FC2 /* TitleNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleNode.swift; sourceTree = "<group>"; };
 		ECF99EE42AE4393700657FC2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECF99EEF2AE44E4C00657FC2 /* SwiftNoiseMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNoiseMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF99EF12AE44E4C00657FC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECF99EF72AE44E4C00657FC2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		ECF99EF92AE44E4C00657FC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECF99EFB2AE44E4D00657FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECF99EFE2AE44E4D00657FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECF99F002AE44E4D00657FC2 /* SwiftAdventure.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftAdventure.entitlements; sourceTree = "<group>"; };
+		ECF99F042AE4A0AE00657FC2 /* TileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TileSet.sks; sourceTree = "<group>"; };
+		ECF99F082AE4ADF300657FC2 /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		ECF99F0E2AE4B0F700657FC2 /* FearTheDead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FearTheDead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF99F102AE4B0F700657FC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECF99F122AE4B0F700657FC2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		ECF99F162AE4B0F700657FC2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		ECF99F182AE4B0F700657FC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECF99F1A2AE4B0F800657FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECF99F1D2AE4B0F800657FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECF99F1F2AE4B0F800657FC2 /* FearTheDead.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FearTheDead.entitlements; sourceTree = "<group>"; };
+		ECF99F232AE4B26400657FC2 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		ECF99F252AE4CB4000657FC2 /* Wall.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Wall.sks; sourceTree = "<group>"; };
+		ECF99F282AE4CC0C00657FC2 /* Room.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Room.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EC008A9C2AE644C000A5CEB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ECF99E222AE41DDE00657FC2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -165,18 +251,87 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECF99EEC2AE44E4C00657FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF99F0B2AE4B0F700657FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC008AA02AE644C000A5CEB3 /* SwiftAdventure */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA2BC12AEB067600C3EE66 /* Scenes */,
+				EC008AA12AE644C000A5CEB3 /* AppDelegate.swift */,
+				EC008AA72AE644C000A5CEB3 /* GameScene.swift */,
+				ECDA2BC62AEB093600C3EE66 /* GameOver.swift */,
+				EC008AA92AE644C000A5CEB3 /* ViewController.swift */,
+				EC008AB72AE64D5000A5CEB3 /* Player.swift */,
+				EC008AAB2AE644C100A5CEB3 /* Assets.xcassets */,
+				EC008AAD2AE644C100A5CEB3 /* Main.storyboard */,
+				EC008AB02AE644C100A5CEB3 /* SwiftAdventure.entitlements */,
+			);
+			path = SwiftAdventure;
+			sourceTree = "<group>";
+		};
+		EC33480A2AE60AA800CF4668 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EC33480D2AE60AD900CF4668 /* fear_bg.mp3 */,
+				EC33480E2AE60AD900CF4668 /* fear_lose.mp3 */,
+				EC33480C2AE60AD900CF4668 /* fear_moan.wav */,
+				EC33480B2AE60AD900CF4668 /* fear_wall.mp3 */,
+				EC33480F2AE60AD900CF4668 /* fear_win.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		EC33482E2AE6153E00CF4668 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EC33482F2AE6155A00CF4668 /* Keypress.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		ECDA2BC12AEB067600C3EE66 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EC008AA32AE644C000A5CEB3 /* GameScene.sks */,
+				ECDA2BD42AEB5C8800C3EE66 /* Level02.sks */,
+				ECDA2BD62AEB630800C3EE66 /* Level03.sks */,
+				ECDA2BD02AEB589F00C3EE66 /* WorldTiles.sks */,
+				ECDA2BBF2AEAE6FE00C3EE66 /* KeyScene.sks */,
+				ECDA2BC22AEB06F400C3EE66 /* GoalScene.sks */,
+				ECDA2BC42AEB070100C3EE66 /* DoorScene.sks */,
+				ECDA2BCC2AEB4F6800C3EE66 /* PlayerScene.sks */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		ECF99E1C2AE41DDE00657FC2 = {
 			isa = PBXGroup;
 			children = (
+				EC33482E2AE6153E00CF4668 /* Shared */,
 				ECF99E272AE41DDE00657FC2 /* SwiftGames */,
 				ECF99E422AE41FC800657FC2 /* SwiftLabelPlaying */,
 				ECF99E5F2AE4321B00657FC2 /* CoinCollector */,
 				ECF99E822AE4346500657FC2 /* SwiftTennis */,
 				ECF99EA12AE4366300657FC2 /* SwiftBreakout */,
 				ECF99ECB2AE4384400657FC2 /* SwiftRacer */,
+				ECF99EF02AE44E4C00657FC2 /* SwiftNoiseMap */,
+				ECF99F0F2AE4B0F700657FC2 /* FearTheDead */,
+				EC008AA02AE644C000A5CEB3 /* SwiftAdventure */,
 				ECF99E262AE41DDE00657FC2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -190,6 +345,9 @@
 				ECF99E812AE4346500657FC2 /* SwiftTennis.app */,
 				ECF99EA02AE4366300657FC2 /* SwiftBreakout.app */,
 				ECF99ECA2AE4384400657FC2 /* SwiftRacer.app */,
+				ECF99EEF2AE44E4C00657FC2 /* SwiftNoiseMap.app */,
+				ECF99F0E2AE4B0F700657FC2 /* FearTheDead.app */,
+				EC008A9F2AE644C000A5CEB3 /* SwiftAdventure.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -299,9 +457,67 @@
 			path = SwiftRacer;
 			sourceTree = "<group>";
 		};
+		ECF99EF02AE44E4C00657FC2 /* SwiftNoiseMap */ = {
+			isa = PBXGroup;
+			children = (
+				ECF99EF12AE44E4C00657FC2 /* AppDelegate.swift */,
+				ECF99EF72AE44E4C00657FC2 /* GameScene.swift */,
+				ECF99EF92AE44E4C00657FC2 /* ViewController.swift */,
+				ECF99EFB2AE44E4D00657FC2 /* Assets.xcassets */,
+				ECF99EFD2AE44E4D00657FC2 /* Main.storyboard */,
+				ECF99F002AE44E4D00657FC2 /* SwiftAdventure.entitlements */,
+				ECF99F042AE4A0AE00657FC2 /* TileSet.sks */,
+				ECF99F082AE4ADF300657FC2 /* MyScene.sks */,
+			);
+			path = SwiftNoiseMap;
+			sourceTree = "<group>";
+		};
+		ECF99F0F2AE4B0F700657FC2 /* FearTheDead */ = {
+			isa = PBXGroup;
+			children = (
+				ECF99F272AE4CBDB00657FC2 /* Scenes */,
+				EC33480A2AE60AA800CF4668 /* Sounds */,
+				ECF99F102AE4B0F700657FC2 /* AppDelegate.swift */,
+				ECF99F162AE4B0F700657FC2 /* GameScene.swift */,
+				ECF99F232AE4B26400657FC2 /* MenuScene.swift */,
+				ECF99F182AE4B0F700657FC2 /* ViewController.swift */,
+				ECF99F1A2AE4B0F800657FC2 /* Assets.xcassets */,
+				ECF99F1C2AE4B0F800657FC2 /* Main.storyboard */,
+				ECF99F1F2AE4B0F800657FC2 /* FearTheDead.entitlements */,
+			);
+			path = FearTheDead;
+			sourceTree = "<group>";
+		};
+		ECF99F272AE4CBDB00657FC2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				ECF99F122AE4B0F700657FC2 /* GameScene.sks */,
+				ECF99F282AE4CC0C00657FC2 /* Room.sks */,
+				ECF99F252AE4CB4000657FC2 /* Wall.sks */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EC008A9E2AE644C000A5CEB3 /* SwiftAdventure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC008AB12AE644C100A5CEB3 /* Build configuration list for PBXNativeTarget "SwiftAdventure" */;
+			buildPhases = (
+				EC008A9B2AE644C000A5CEB3 /* Sources */,
+				EC008A9C2AE644C000A5CEB3 /* Frameworks */,
+				EC008A9D2AE644C000A5CEB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftAdventure;
+			productName = SwiftAdventure;
+			productReference = EC008A9F2AE644C000A5CEB3 /* SwiftAdventure.app */;
+			productType = "com.apple.product-type.application";
+		};
 		ECF99E242AE41DDE00657FC2 /* SwiftGames */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECF99E3A2AE41DE000657FC2 /* Build configuration list for PBXNativeTarget "SwiftGames" */;
@@ -404,6 +620,40 @@
 			productReference = ECF99ECA2AE4384400657FC2 /* SwiftRacer.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ECF99EEE2AE44E4C00657FC2 /* SwiftNoiseMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF99F012AE44E4D00657FC2 /* Build configuration list for PBXNativeTarget "SwiftNoiseMap" */;
+			buildPhases = (
+				ECF99EEB2AE44E4C00657FC2 /* Sources */,
+				ECF99EEC2AE44E4C00657FC2 /* Frameworks */,
+				ECF99EED2AE44E4C00657FC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftNoiseMap;
+			productName = SwiftAdventure;
+			productReference = ECF99EEF2AE44E4C00657FC2 /* SwiftNoiseMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECF99F0D2AE4B0F700657FC2 /* FearTheDead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF99F202AE4B0F800657FC2 /* Build configuration list for PBXNativeTarget "FearTheDead" */;
+			buildPhases = (
+				ECF99F0A2AE4B0F700657FC2 /* Sources */,
+				ECF99F0B2AE4B0F700657FC2 /* Frameworks */,
+				ECF99F0C2AE4B0F700657FC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FearTheDead;
+			productName = SwiftAdventureScenes;
+			productReference = ECF99F0E2AE4B0F700657FC2 /* FearTheDead.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -414,6 +664,9 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					EC008A9E2AE644C000A5CEB3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
 					ECF99E242AE41DDE00657FC2 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
@@ -430,6 +683,12 @@
 						CreatedOnToolsVersion = 15.0.1;
 					};
 					ECF99EC92AE4384400657FC2 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					ECF99EEE2AE44E4C00657FC2 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					ECF99F0D2AE4B0F700657FC2 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
@@ -453,11 +712,30 @@
 				ECF99E802AE4346500657FC2 /* SwiftTennis */,
 				ECF99E9F2AE4366300657FC2 /* SwiftBreakout */,
 				ECF99EC92AE4384400657FC2 /* SwiftRacer */,
+				ECF99EEE2AE44E4C00657FC2 /* SwiftNoiseMap */,
+				ECF99F0D2AE4B0F700657FC2 /* FearTheDead */,
+				EC008A9E2AE644C000A5CEB3 /* SwiftAdventure */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EC008A9D2AE644C000A5CEB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDA2BD52AEB5D8F00C3EE66 /* Level02.sks in Resources */,
+				ECDA2BC52AEB070100C3EE66 /* DoorScene.sks in Resources */,
+				ECDA2BCD2AEB4F6800C3EE66 /* PlayerScene.sks in Resources */,
+				EC008AA42AE644C000A5CEB3 /* GameScene.sks in Resources */,
+				EC008AAC2AE644C100A5CEB3 /* Assets.xcassets in Resources */,
+				ECDA2BC02AEAE6FE00C3EE66 /* KeyScene.sks in Resources */,
+				ECDA2BC32AEB06F400C3EE66 /* GoalScene.sks in Resources */,
+				ECDA2BD22AEB589F00C3EE66 /* WorldTiles.sks in Resources */,
+				EC008AAF2AE644C100A5CEB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ECF99E232AE41DDE00657FC2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -519,9 +797,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECF99EED2AE44E4C00657FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF99F052AE4A0AE00657FC2 /* TileSet.sks in Resources */,
+				ECF99EFC2AE44E4D00657FC2 /* Assets.xcassets in Resources */,
+				ECF99F092AE4ADF300657FC2 /* MyScene.sks in Resources */,
+				ECF99EFF2AE44E4D00657FC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF99F0C2AE4B0F700657FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF99F132AE4B0F700657FC2 /* GameScene.sks in Resources */,
+				ECF99F1B2AE4B0F800657FC2 /* Assets.xcassets in Resources */,
+				EC3348102AE60AD900CF4668 /* fear_wall.mp3 in Resources */,
+				ECF99F1E2AE4B0F800657FC2 /* Main.storyboard in Resources */,
+				ECF99F292AE4CC0C00657FC2 /* Room.sks in Resources */,
+				EC3348142AE60AD900CF4668 /* fear_win.mp3 in Resources */,
+				ECF99F262AE4CB4000657FC2 /* Wall.sks in Resources */,
+				EC3348112AE60AD900CF4668 /* fear_moan.wav in Resources */,
+				EC3348132AE60AD900CF4668 /* fear_lose.mp3 in Resources */,
+				EC3348122AE60AD900CF4668 /* fear_bg.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EC008A9B2AE644C000A5CEB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC008AAA2AE644C000A5CEB3 /* ViewController.swift in Sources */,
+				EC008AA82AE644C000A5CEB3 /* GameScene.swift in Sources */,
+				EC008AA22AE644C000A5CEB3 /* AppDelegate.swift in Sources */,
+				ECDA2BC72AEB093600C3EE66 /* GameOver.swift in Sources */,
+				EC008AB82AE64D5000A5CEB3 /* Player.swift in Sources */,
+				EC008AB62AE64BB600A5CEB3 /* Keypress.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ECF99E212AE41DDE00657FC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -594,9 +913,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECF99EEB2AE44E4C00657FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF99EFA2AE44E4C00657FC2 /* ViewController.swift in Sources */,
+				ECF99EF82AE44E4C00657FC2 /* GameScene.swift in Sources */,
+				ECF99EF22AE44E4C00657FC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF99F0A2AE4B0F700657FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF99F192AE4B0F700657FC2 /* ViewController.swift in Sources */,
+				ECF99F242AE4B26400657FC2 /* MenuScene.swift in Sources */,
+				ECF99F172AE4B0F700657FC2 /* GameScene.swift in Sources */,
+				ECF99F112AE4B0F700657FC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		EC008AAD2AE644C100A5CEB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC008AAE2AE644C100A5CEB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		ECF99E342AE41DE000657FC2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -645,9 +993,79 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
+		ECF99EFD2AE44E4D00657FC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF99EFE2AE44E4D00657FC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECF99F1C2AE4B0F800657FC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF99F1D2AE4B0F800657FC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		EC008AB22AE644C100A5CEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftAdventure/SwiftAdventure.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T52TG5K2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunchtimedang.SwiftAdventure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EC008AB32AE644C100A5CEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftAdventure/SwiftAdventure.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T52TG5K2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunchtimedang.SwiftAdventure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		ECF99E382AE41DE000657FC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1090,9 +1508,126 @@
 			};
 			name = Release;
 		};
+		ECF99F022AE44E4D00657FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftNoiseMap/SwiftAdventure.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T52TG5K2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunchtimedang.SwiftAdventure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ECF99F032AE44E4D00657FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftNoiseMap/SwiftAdventure.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T52TG5K2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunchtimedang.SwiftAdventure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ECF99F212AE4B0F800657FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FearTheDead/FearTheDead.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T52TG5K2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunchtimedang.FearTheDead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ECF99F222AE4B0F800657FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FearTheDead/FearTheDead.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T52TG5K2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunchtimedang.FearTheDead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EC008AB12AE644C100A5CEB3 /* Build configuration list for PBXNativeTarget "SwiftAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC008AB22AE644C100A5CEB3 /* Debug */,
+				EC008AB32AE644C100A5CEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		ECF99E202AE41DDE00657FC2 /* Build configuration list for PBXProject "SwiftGames" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1152,6 +1687,24 @@
 			buildConfigurations = (
 				ECF99EDD2AE4384500657FC2 /* Debug */,
 				ECF99EDE2AE4384500657FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF99F012AE44E4D00657FC2 /* Build configuration list for PBXNativeTarget "SwiftNoiseMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF99F022AE44E4D00657FC2 /* Debug */,
+				ECF99F032AE44E4D00657FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF99F202AE4B0F800657FC2 /* Build configuration list for PBXNativeTarget "FearTheDead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF99F212AE4B0F800657FC2 /* Debug */,
+				ECF99F222AE4B0F800657FC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
