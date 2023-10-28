@@ -1,6 +1,5 @@
 //
 //  SKTileMapNode.swift
-//  SwiftAdventure
 //
 //  Created by jchutc0 on 10/28/23.
 //
