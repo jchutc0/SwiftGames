@@ -24,7 +24,7 @@ class Keypress {
         if watchList.contains(.arrowKeys) { arrowKeys = 0x0 }
     } // init
     
-    func keyDown(event: NSEvent) {
+    func keyDown(_ event: NSEvent) {
         if arrowKeys != nil {
             switch event.keyCode {
             case 0x7B: arrowKeys! |= bitmaskLeftArrow
@@ -36,7 +36,7 @@ class Keypress {
         } // if arrowKeys
     } // keyDown
     
-    func keyUp(event: NSEvent) {
+    func keyUp(_ event: NSEvent) {
         if arrowKeys != nil {
             switch event.keyCode {
             case 0x7B: arrowKeys! &= ~bitmaskLeftArrow

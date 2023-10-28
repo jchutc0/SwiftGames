@@ -20,6 +20,8 @@
 		EC3348122AE60AD900CF4668 /* fear_bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC33480D2AE60AD900CF4668 /* fear_bg.mp3 */; };
 		EC3348132AE60AD900CF4668 /* fear_lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC33480E2AE60AD900CF4668 /* fear_lose.mp3 */; };
 		EC3348142AE60AD900CF4668 /* fear_win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC33480F2AE60AD900CF4668 /* fear_win.mp3 */; };
+		ECD2D6ED2AED86BA00585E22 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD2D6EC2AED86BA00585E22 /* CGPoint.swift */; };
+		ECD2D6F02AED8B5A00585E22 /* SKTileMapNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD2D6EE2AED877600585E22 /* SKTileMapNode.swift */; };
 		ECDA2BC02AEAE6FE00C3EE66 /* KeyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BBF2AEAE6FE00C3EE66 /* KeyScene.sks */; };
 		ECDA2BC32AEB06F400C3EE66 /* GoalScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BC22AEB06F400C3EE66 /* GoalScene.sks */; };
 		ECDA2BC52AEB070100C3EE66 /* DoorScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BC42AEB070100C3EE66 /* DoorScene.sks */; };
@@ -117,6 +119,8 @@
 		EC33480E2AE60AD900CF4668 /* fear_lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_lose.mp3; sourceTree = "<group>"; };
 		EC33480F2AE60AD900CF4668 /* fear_win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_win.mp3; sourceTree = "<group>"; };
 		EC33482F2AE6155A00CF4668 /* Keypress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keypress.swift; sourceTree = "<group>"; };
+		ECD2D6EC2AED86BA00585E22 /* CGPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		ECD2D6EE2AED877600585E22 /* SKTileMapNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTileMapNode.swift; sourceTree = "<group>"; };
 		ECDA2BBF2AEAE6FE00C3EE66 /* KeyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = KeyScene.sks; sourceTree = "<group>"; };
 		ECDA2BC22AEB06F400C3EE66 /* GoalScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GoalScene.sks; sourceTree = "<group>"; };
 		ECDA2BC42AEB070100C3EE66 /* DoorScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = DoorScene.sks; sourceTree = "<group>"; };
@@ -323,6 +327,8 @@
 			isa = PBXGroup;
 			children = (
 				EC33482F2AE6155A00CF4668 /* Keypress.swift */,
+				ECD2D6EC2AED86BA00585E22 /* CGPoint.swift */,
+				ECD2D6EE2AED877600585E22 /* SKTileMapNode.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -333,11 +339,11 @@
 				EC008AA32AE644C000A5CEB3 /* GameScene.sks */,
 				ECDA2BD42AEB5C8800C3EE66 /* Level02.sks */,
 				ECDA2BD62AEB630800C3EE66 /* Level03.sks */,
-				ECDA2BD02AEB589F00C3EE66 /* WorldTiles.sks */,
 				ECDA2BBF2AEAE6FE00C3EE66 /* KeyScene.sks */,
 				ECDA2BC22AEB06F400C3EE66 /* GoalScene.sks */,
 				ECDA2BC42AEB070100C3EE66 /* DoorScene.sks */,
 				ECDA2BCC2AEB4F6800C3EE66 /* PlayerScene.sks */,
+				ECDA2BD02AEB589F00C3EE66 /* WorldTiles.sks */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -907,8 +913,10 @@
 				EC008AAA2AE644C000A5CEB3 /* ViewController.swift in Sources */,
 				EC008AA82AE644C000A5CEB3 /* GameScene.swift in Sources */,
 				EC008AA22AE644C000A5CEB3 /* AppDelegate.swift in Sources */,
+				ECD2D6ED2AED86BA00585E22 /* CGPoint.swift in Sources */,
 				ECDA2BC72AEB093600C3EE66 /* GameOver.swift in Sources */,
 				EC008AB82AE64D5000A5CEB3 /* Player.swift in Sources */,
+				ECD2D6F02AED8B5A00585E22 /* SKTileMapNode.swift in Sources */,
 				EC008AB62AE64BB600A5CEB3 /* Keypress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
