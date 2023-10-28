@@ -13,7 +13,12 @@ class GameScene: SKScene {
     var keypress = Keypress.arrowKeys()
     var player = Player()
     var map: SKTileMapNode?
-    static var level = Int(1)
+    var debug: SKLabelNode?
+    static var levels = [
+        "Level02",
+        "Level03",
+        "Level04®"
+    ]
     
     override func didMove(to view: SKView) {
         physicsWorld.contactDelegate = self
@@ -36,23 +41,20 @@ extension GameScene: SKPhysicsContactDelegate {
         player.contact(contact, collision: collision)
 
         if collision == Bitmask.player | Bitmask.goal {
-            GameScene.level += 1
-            switch GameScene.level {
-            case 2: loadLevel("Level02")
-            default:
-                GameScene.level = 1
-                let scene = GameOver(size: self.size)
-                scene.scaleMode = .aspectFit
-                let transition = SKTransition.push(with: .up, duration: 1)
-                view?.presentScene(scene, transition: transition)
-            } // switch
+            loadLevel()
         } // player/goal collision
     } // didBegin
     
-    func loadLevel(_ levelName: String) {
-        if let scene = SKScene(fileNamed: levelName) {
+    func loadLevel() {
+        if let nextLevel = GameScene.levels.first, let scene = SKScene(fileNamed: nextLevel) {
+            GameScene.levels.removeFirst()
             scene.scaleMode = .aspectFill
             let transition = SKTransition.push(with: .down, duration: 1)
+            view?.presentScene(scene, transition: transition)
+        } else {
+            let scene = GameOver(size: self.size)
+            scene.scaleMode = .aspectFit
+            let transition = SKTransition.push(with: .up, duration: 1)
             view?.presentScene(scene, transition: transition)
         } // let scene
     } // loadLevel
