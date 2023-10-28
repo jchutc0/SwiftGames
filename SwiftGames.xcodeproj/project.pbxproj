@@ -27,6 +27,13 @@
 		ECDA2BCD2AEB4F6800C3EE66 /* PlayerScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BCC2AEB4F6800C3EE66 /* PlayerScene.sks */; };
 		ECDA2BD22AEB589F00C3EE66 /* WorldTiles.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BD02AEB589F00C3EE66 /* WorldTiles.sks */; };
 		ECDA2BD52AEB5D8F00C3EE66 /* Level02.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BD42AEB5C8800C3EE66 /* Level02.sks */; };
+		ECDA2BDE2AEC32C800C3EE66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA2BDD2AEC32C800C3EE66 /* AppDelegate.swift */; };
+		ECDA2BE02AEC32C800C3EE66 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BDF2AEC32C800C3EE66 /* GameScene.sks */; };
+		ECDA2BE22AEC32C800C3EE66 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BE12AEC32C800C3EE66 /* Actions.sks */; };
+		ECDA2BE42AEC32C800C3EE66 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA2BE32AEC32C800C3EE66 /* GameScene.swift */; };
+		ECDA2BE62AEC32C800C3EE66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA2BE52AEC32C800C3EE66 /* ViewController.swift */; };
+		ECDA2BE82AEC32CA00C3EE66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BE72AEC32CA00C3EE66 /* Assets.xcassets */; };
+		ECDA2BEB2AEC32CA00C3EE66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BE92AEC32CA00C3EE66 /* Main.storyboard */; };
 		ECF99E292AE41DDE00657FC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF99E282AE41DDE00657FC2 /* AppDelegate.swift */; };
 		ECF99E2B2AE41DDE00657FC2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF99E2A2AE41DDE00657FC2 /* GameScene.sks */; };
 		ECF99E2D2AE41DDE00657FC2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECF99E2C2AE41DDE00657FC2 /* Actions.sks */; };
@@ -118,6 +125,15 @@
 		ECDA2BD02AEB589F00C3EE66 /* WorldTiles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = WorldTiles.sks; sourceTree = "<group>"; };
 		ECDA2BD42AEB5C8800C3EE66 /* Level02.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level02.sks; sourceTree = "<group>"; };
 		ECDA2BD62AEB630800C3EE66 /* Level03.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level03.sks; sourceTree = "<group>"; };
+		ECDA2BDB2AEC32C800C3EE66 /* SideScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDA2BDD2AEC32C800C3EE66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECDA2BDF2AEC32C800C3EE66 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		ECDA2BE12AEC32C800C3EE66 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		ECDA2BE32AEC32C800C3EE66 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		ECDA2BE52AEC32C800C3EE66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECDA2BE72AEC32CA00C3EE66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECDA2BEA2AEC32CA00C3EE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECDA2BEC2AEC32CA00C3EE66 /* SideScroller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SideScroller.entitlements; sourceTree = "<group>"; };
 		ECF99E252AE41DDE00657FC2 /* SwiftGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF99E282AE41DDE00657FC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECF99E2A2AE41DDE00657FC2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -203,6 +219,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		EC008A9C2AE644C000A5CEB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDA2BD82AEC32C800C3EE66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -319,6 +342,21 @@
 			path = Scenes;
 			sourceTree = "<group>";
 		};
+		ECDA2BDC2AEC32C800C3EE66 /* SideScroller */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA2BDD2AEC32C800C3EE66 /* AppDelegate.swift */,
+				ECDA2BDF2AEC32C800C3EE66 /* GameScene.sks */,
+				ECDA2BE12AEC32C800C3EE66 /* Actions.sks */,
+				ECDA2BE32AEC32C800C3EE66 /* GameScene.swift */,
+				ECDA2BE52AEC32C800C3EE66 /* ViewController.swift */,
+				ECDA2BE72AEC32CA00C3EE66 /* Assets.xcassets */,
+				ECDA2BE92AEC32CA00C3EE66 /* Main.storyboard */,
+				ECDA2BEC2AEC32CA00C3EE66 /* SideScroller.entitlements */,
+			);
+			path = SideScroller;
+			sourceTree = "<group>";
+		};
 		ECF99E1C2AE41DDE00657FC2 = {
 			isa = PBXGroup;
 			children = (
@@ -332,6 +370,7 @@
 				ECF99EF02AE44E4C00657FC2 /* SwiftNoiseMap */,
 				ECF99F0F2AE4B0F700657FC2 /* FearTheDead */,
 				EC008AA02AE644C000A5CEB3 /* SwiftAdventure */,
+				ECDA2BDC2AEC32C800C3EE66 /* SideScroller */,
 				ECF99E262AE41DDE00657FC2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -348,6 +387,7 @@
 				ECF99EEF2AE44E4C00657FC2 /* SwiftNoiseMap.app */,
 				ECF99F0E2AE4B0F700657FC2 /* FearTheDead.app */,
 				EC008A9F2AE644C000A5CEB3 /* SwiftAdventure.app */,
+				ECDA2BDB2AEC32C800C3EE66 /* SideScroller.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -518,6 +558,23 @@
 			productReference = EC008A9F2AE644C000A5CEB3 /* SwiftAdventure.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ECDA2BDA2AEC32C800C3EE66 /* SideScroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDA2BED2AEC32CA00C3EE66 /* Build configuration list for PBXNativeTarget "SideScroller" */;
+			buildPhases = (
+				ECDA2BD72AEC32C800C3EE66 /* Sources */,
+				ECDA2BD82AEC32C800C3EE66 /* Frameworks */,
+				ECDA2BD92AEC32C800C3EE66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideScroller;
+			productName = SideScroller;
+			productReference = ECDA2BDB2AEC32C800C3EE66 /* SideScroller.app */;
+			productType = "com.apple.product-type.application";
+		};
 		ECF99E242AE41DDE00657FC2 /* SwiftGames */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECF99E3A2AE41DE000657FC2 /* Build configuration list for PBXNativeTarget "SwiftGames" */;
@@ -667,6 +724,9 @@
 					EC008A9E2AE644C000A5CEB3 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
+					ECDA2BDA2AEC32C800C3EE66 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
 					ECF99E242AE41DDE00657FC2 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
@@ -715,6 +775,7 @@
 				ECF99EEE2AE44E4C00657FC2 /* SwiftNoiseMap */,
 				ECF99F0D2AE4B0F700657FC2 /* FearTheDead */,
 				EC008A9E2AE644C000A5CEB3 /* SwiftAdventure */,
+				ECDA2BDA2AEC32C800C3EE66 /* SideScroller */,
 			);
 		};
 /* End PBXProject section */
@@ -733,6 +794,17 @@
 				ECDA2BC32AEB06F400C3EE66 /* GoalScene.sks in Resources */,
 				ECDA2BD22AEB589F00C3EE66 /* WorldTiles.sks in Resources */,
 				EC008AAF2AE644C100A5CEB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDA2BD92AEC32C800C3EE66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDA2BE02AEC32C800C3EE66 /* GameScene.sks in Resources */,
+				ECDA2BE82AEC32CA00C3EE66 /* Assets.xcassets in Resources */,
+				ECDA2BE22AEC32C800C3EE66 /* Actions.sks in Resources */,
+				ECDA2BEB2AEC32CA00C3EE66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -841,6 +913,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECDA2BD72AEC32C800C3EE66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDA2BE62AEC32C800C3EE66 /* ViewController.swift in Sources */,
+				ECDA2BE42AEC32C800C3EE66 /* GameScene.swift in Sources */,
+				ECDA2BDE2AEC32C800C3EE66 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ECF99E212AE41DDE00657FC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -941,6 +1023,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				EC008AAE2AE644C100A5CEB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECDA2BE92AEC32CA00C3EE66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDA2BEA2AEC32CA00C3EE66 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1060,6 +1150,60 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lunchtimedang.SwiftAdventure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ECDA2BEE2AEC32CA00C3EE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SideScroller/SideScroller.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T52TG5K2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunchtimedang.SideScroller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ECDA2BEF2AEC32CA00C3EE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SideScroller/SideScroller.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T52TG5K2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunchtimedang.SideScroller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1624,6 +1768,15 @@
 			buildConfigurations = (
 				EC008AB22AE644C100A5CEB3 /* Debug */,
 				EC008AB32AE644C100A5CEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDA2BED2AEC32CA00C3EE66 /* Build configuration list for PBXNativeTarget "SideScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDA2BEE2AEC32CA00C3EE66 /* Debug */,
+				ECDA2BEF2AEC32CA00C3EE66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
