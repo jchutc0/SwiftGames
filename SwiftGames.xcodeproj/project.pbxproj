@@ -20,6 +20,9 @@
 		EC3348122AE60AD900CF4668 /* fear_bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC33480D2AE60AD900CF4668 /* fear_bg.mp3 */; };
 		EC3348132AE60AD900CF4668 /* fear_lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC33480E2AE60AD900CF4668 /* fear_lose.mp3 */; };
 		EC3348142AE60AD900CF4668 /* fear_win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC33480F2AE60AD900CF4668 /* fear_win.mp3 */; };
+		EC77B0A92AEDB38E00649180 /* WorldTiles.sks in Resources */ = {isa = PBXBuildFile; fileRef = EC77B0A82AEDB38E00649180 /* WorldTiles.sks */; };
+		EC77B0AA2AEDCE2200649180 /* Keypress.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC33482F2AE6155A00CF4668 /* Keypress.swift */; };
+		EC77B0AB2AEDEBD100649180 /* SKTileMapNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD2D6EE2AED877600585E22 /* SKTileMapNode.swift */; };
 		ECD2D6ED2AED86BA00585E22 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD2D6EC2AED86BA00585E22 /* CGPoint.swift */; };
 		ECD2D6F02AED8B5A00585E22 /* SKTileMapNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD2D6EE2AED877600585E22 /* SKTileMapNode.swift */; };
 		ECDA2BC02AEAE6FE00C3EE66 /* KeyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BBF2AEAE6FE00C3EE66 /* KeyScene.sks */; };
@@ -31,7 +34,6 @@
 		ECDA2BD52AEB5D8F00C3EE66 /* Level02.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BD42AEB5C8800C3EE66 /* Level02.sks */; };
 		ECDA2BDE2AEC32C800C3EE66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA2BDD2AEC32C800C3EE66 /* AppDelegate.swift */; };
 		ECDA2BE02AEC32C800C3EE66 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BDF2AEC32C800C3EE66 /* GameScene.sks */; };
-		ECDA2BE22AEC32C800C3EE66 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BE12AEC32C800C3EE66 /* Actions.sks */; };
 		ECDA2BE42AEC32C800C3EE66 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA2BE32AEC32C800C3EE66 /* GameScene.swift */; };
 		ECDA2BE62AEC32C800C3EE66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA2BE52AEC32C800C3EE66 /* ViewController.swift */; };
 		ECDA2BE82AEC32CA00C3EE66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDA2BE72AEC32CA00C3EE66 /* Assets.xcassets */; };
@@ -119,6 +121,7 @@
 		EC33480E2AE60AD900CF4668 /* fear_lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_lose.mp3; sourceTree = "<group>"; };
 		EC33480F2AE60AD900CF4668 /* fear_win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_win.mp3; sourceTree = "<group>"; };
 		EC33482F2AE6155A00CF4668 /* Keypress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keypress.swift; sourceTree = "<group>"; };
+		EC77B0A82AEDB38E00649180 /* WorldTiles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = WorldTiles.sks; sourceTree = "<group>"; };
 		ECD2D6EC2AED86BA00585E22 /* CGPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
 		ECD2D6EE2AED877600585E22 /* SKTileMapNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTileMapNode.swift; sourceTree = "<group>"; };
 		ECDA2BBF2AEAE6FE00C3EE66 /* KeyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = KeyScene.sks; sourceTree = "<group>"; };
@@ -132,7 +135,6 @@
 		ECDA2BDB2AEC32C800C3EE66 /* SideScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDA2BDD2AEC32C800C3EE66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECDA2BDF2AEC32C800C3EE66 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		ECDA2BE12AEC32C800C3EE66 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		ECDA2BE32AEC32C800C3EE66 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		ECDA2BE52AEC32C800C3EE66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ECDA2BE72AEC32CA00C3EE66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -333,6 +335,15 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
+		ECD2D6F32AEDB18700585E22 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA2BDF2AEC32C800C3EE66 /* GameScene.sks */,
+				EC77B0A82AEDB38E00649180 /* WorldTiles.sks */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		ECDA2BC12AEB067600C3EE66 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
@@ -351,9 +362,8 @@
 		ECDA2BDC2AEC32C800C3EE66 /* SideScroller */ = {
 			isa = PBXGroup;
 			children = (
+				ECD2D6F32AEDB18700585E22 /* Scenes */,
 				ECDA2BDD2AEC32C800C3EE66 /* AppDelegate.swift */,
-				ECDA2BDF2AEC32C800C3EE66 /* GameScene.sks */,
-				ECDA2BE12AEC32C800C3EE66 /* Actions.sks */,
 				ECDA2BE32AEC32C800C3EE66 /* GameScene.swift */,
 				ECDA2BE52AEC32C800C3EE66 /* ViewController.swift */,
 				ECDA2BE72AEC32CA00C3EE66 /* Assets.xcassets */,
@@ -809,7 +819,7 @@
 			files = (
 				ECDA2BE02AEC32C800C3EE66 /* GameScene.sks in Resources */,
 				ECDA2BE82AEC32CA00C3EE66 /* Assets.xcassets in Resources */,
-				ECDA2BE22AEC32C800C3EE66 /* Actions.sks in Resources */,
+				EC77B0A92AEDB38E00649180 /* WorldTiles.sks in Resources */,
 				ECDA2BEB2AEC32CA00C3EE66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -928,6 +938,8 @@
 				ECDA2BE62AEC32C800C3EE66 /* ViewController.swift in Sources */,
 				ECDA2BE42AEC32C800C3EE66 /* GameScene.swift in Sources */,
 				ECDA2BDE2AEC32C800C3EE66 /* AppDelegate.swift in Sources */,
+				EC77B0AA2AEDCE2200649180 /* Keypress.swift in Sources */,
+				EC77B0AB2AEDEBD100649180 /* SKTileMapNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
